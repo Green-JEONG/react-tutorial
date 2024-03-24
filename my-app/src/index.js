@@ -12,6 +12,7 @@ import Root from "./routes/root";
 import TestParams from './view/testparams';
 import ErrorPage from "./error-page";
 import Counter from './view/Counter';
+import Counter_total from './view/Counter_total';
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
         path: "Counter",
         element: <Counter />,
       },
+      {
+        path: "Counter_total",
+        element: <Counter_total />,
+      }
     ]
   },
   
