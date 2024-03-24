@@ -11,6 +11,7 @@ import reportWebVitals from './reportWebVitals';
 import Root from "./routes/root";
 import TestParams from './view/testparams';
 import ErrorPage from "./error-page";
+import Counter from './view/Counter';
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: "TestParams/:id",
         element: <TestParams />,
+      },
+      {
+        path: "Counter",
+        element: <Counter />,
       },
     ]
   },

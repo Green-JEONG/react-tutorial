@@ -34,10 +34,13 @@ export default function Root() {
                 <Link to={"hello-world"}>Hello</Link>
               </li>
               <li>
-                <Link to={"Test"}>Nice to meet you</Link>
+                <Link to={"Test"}>Test</Link>
               </li>
               <li>
-                <Link to={"TestParams"}>Long time no see</Link>
+                <Link to={"TestParams/qwerty"}>TestParams</Link>
+              </li>
+              <li>
+                <Link to={"Counter"}>Counter</Link>
               </li>
             </ul>
           </nav>
